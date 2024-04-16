@@ -29,12 +29,15 @@ Es können mehrere Nachrichten übergeben werden;
 Jede der übergebenen Nachrichten soll mit dem Schlüssel K verschlüsselt werden;
 Die verschlüsselten Nachrichten sollen zeilenweise auf die Konsole ausgegeben werden. Zum Beispiel erzeugt der obige Aufruf folgende Ausgabe:
 
-```$ java Caesar 3 "Hello World!" "Bla, Bla, Bla."
+```
+$ java Caesar 3 "Hello World!" "Bla, Bla, Bla."
 Khoor Zruog!
-Eod, Eod, Eod.```
+Eod, Eod, Eod.
+```
 Hinweis: Um auf einzelne Buchstaben der Zeichenketten zuzugreifen nutzen Sie die Methode String.toCharArray(), die die Zeichenkette in ein Array von Buchstaben umwandelt. Beispiel:
-
-```String s = "Hello World.";
-char[] buchstaben = s.toCharArray();```
+```
+String s = "Hello World.";
+char[] buchstaben = s.toCharArray();
+```
 Sparen Sie nicht mit hilfreichen Kommentaren!
 Bitte laden Sie die Datei Caesar.java rechtzeitig bei Moodle hoch.
